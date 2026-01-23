@@ -36,5 +36,5 @@ Notes to developers after forking or using the github template feature:
 - Do awesome stuff!
  -->
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg -->
+<!-- [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg --> -->
