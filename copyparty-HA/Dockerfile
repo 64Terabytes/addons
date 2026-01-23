@@ -8,7 +8,7 @@ RUN \
 
 
 # Install Copyparty
-RUN wget https://github.com/9001/copyparty/releases/download/v1.20.2/copyparty-sfx.py
+RUN wget https://github.com/9001/copyparty/releases/download/v1.20.4/copyparty-sfx.py
 # Copy data for add-on
 COPY run.sh /
 COPY copyparty.conf /
