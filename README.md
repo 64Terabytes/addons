@@ -1,6 +1,6 @@
 # Example Home Assistant add-on repository
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
+<!-- This repository can be used as a "blueprint" for add-on development to help you get started.
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
@@ -37,4 +37,4 @@ Notes to developers after forking or using the github template feature:
  -->
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg -->
