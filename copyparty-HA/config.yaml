@@ -6,9 +6,10 @@ arch:
   - aarch64
   - amd64
 startup: services
-#hassio_api: true
+hassio_api: true
 host_network: true
 init: false
+webui: http://[HOST]:[PORT:3923]/
 map:
   - type: share
     read_only: False
@@ -38,7 +39,15 @@ map:
     read_only: False
     path: /ha/all_addon_configs
 
-webui: http://[HOST]:[PORT:3923]/
+options:
+  username: homeassistant
+  password: "changeme"
+
+schema:
+  username: str
+  password: str
+
+
 
 # ingress: true
 # ingress_port: 3923
