@@ -1,5 +1,10 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Hello world!"
+CONFIG_PATH=/data/options.json
 
-python3 copyparty-sfx.py -c /copyparty.conf
+USERNAME=$(bashio::config 'username')
+PASSWORD=$(bashio::config 'password')
+
+echo "Username is: ${USERNAME}"
+
+python3 copyparty-sfx.py -a ${USERNAME}:${PASSWORD} -v ./ha/::rwmda,${USERNAME}
